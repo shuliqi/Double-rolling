@@ -13,7 +13,7 @@
 #根本的解决办法
    模拟滚动条：对于浮层则通过捕获touchstart、touchmove、touchend事件来计算手指滑动的距离，使得浮层进行移动。
 #核心实现代码：
-```
+```javascript
 /*调用说明：noScroll.init('j_s_float',$('.j_s_float'),$('.j_ns_float'));
  *@param{
  *  j_s_float:浮层的class的名字
